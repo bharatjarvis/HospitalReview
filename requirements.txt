@@ -1,13 +1,23 @@
-streamlit
-pandas
-numpy
-matplotlib
-seaborn
-gensim
-spacy
-transformers
-sentence-transformers
-wordcloud
-scikit-learn
-plotly
-nltk
+# Core web app
+streamlit==1.34.0
+
+# NLP & Transformers
+transformers==4.41.1
+sentence-transformers==2.7.0
+torch==2.3.0
+
+# Topic Modeling
+gensim==4.3.1
+scipy==1.9.3
+nltk==3.8.1
+
+# Data Handling & Viz
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+wordcloud==1.9.3
+
+# Text Preprocessing
+scikit-learn==1.4.2
+textblob==0.18.0.post0
+emoji==2.11.0
